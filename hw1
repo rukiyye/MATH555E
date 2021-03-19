@@ -1,0 +1,38 @@
+import math
+import numpy as np
+
+#Question 1
+#x = float(input("Input the x="))
+
+#print("Result=",(2*(math.sin(x*x))+(np.log(abs(x)))+1))
+
+#Question 2
+
+#fx=input("Please input a function:")
+#a= float(input("Please input lower number of interval:"))
+#b= float(input("Please input upper number of interval:"))
+#N=int(input("Please input subdivision number:"))
+#x=a
+
+#y=0
+#for i in range(N+1):
+#   f =float(eval(fx))
+#   print("f=",f)
+#   y=y+f
+#   x=x+float((b-a)/N)
+#print(y)
+
+#Question 3
+
+#import random
+#xs=[]
+#for i in range(100):
+    #xs.append(random.uniform(0,1))
+#xs.insert(0,0.0)
+#xs.append(1.0)
+#xs.sort()
+#print(xs)
+#disc_der=[]
+#for  m in range(len(xs)-1):
+    #disc_der.append(float(xs[m+1])-float(xs[m]))
+#print(disc_der)
